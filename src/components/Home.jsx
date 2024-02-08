@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import JobCard from "./JobCard";
 import { useState } from "react";
+import contactUs from "../assets/contact-us.gif";
 
 const Home = ({
   data,
@@ -30,8 +31,8 @@ const Home = ({
           </div>
           <div className="right with-[50%] mx-[12%] md:mx-0">
             <img
-              className="w-[250px] md:w-[400px]"
-              src="https://beweddy.com/gif/contact-us.gif"
+              className="w-[250px] md:w-[420px]"
+              src={contactUs}
               alt="contact-us"
             />
           </div>
